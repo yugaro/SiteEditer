@@ -1,0 +1,11 @@
+.workexperience-container{
+	flex: 1 1 0%;
+	margin-right: 48px;
+}
+
+@media all and (max-width: 48em){
+	.workexperience-container{
+		width:100%;
+		margin-right: 0px;
+	}
+}

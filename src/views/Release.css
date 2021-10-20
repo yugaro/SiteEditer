@@ -1,0 +1,22 @@
+.main {
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.main-wrapper {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    padding: 24px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 64px;
+    margin-bottom: 24px;
+}

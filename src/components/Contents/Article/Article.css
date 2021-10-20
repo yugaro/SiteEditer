@@ -1,0 +1,66 @@
+.article-container{
+	flex: 1 1 0%;
+}
+
+.article-wrapper{
+	display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.article-link{
+	text-decoration: none;
+    flex-basis: calc(50% - 16px);
+    margin-right: 16px;
+    margin-bottom: 32px;
+}
+
+.article-image{
+	flex-basis: 100%;
+    padding-top: 50%;
+    position: relative;
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    box-shadow: rgb(204, 204, 204) 5px 5px 10px;
+}
+
+.arti1{
+    background-image: url("./image/event-triggered-control-state.png");
+}
+
+.arti2{
+    background-image: url("./image/event-triggered-control-output.png");
+}
+
+.arti3{
+    background-image: url("./image/self-triggered-control.png");
+}
+
+.arti4{
+    background-image: url("./image/bilinear-stability.png");
+}
+
+.arti5{
+    background-image: url("./image/learning-based_self-triggered_controller.png");
+}
+
+.arti6{
+    background-image: url("./image/learning-based_mpc_with_stability_guarantee.png");
+}
+
+.artt1{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.art2{
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+@media all and (max-width: 48em){
+    .article-link{
+	    flex-basis: 100%;
+	    margin-right: 0px;
+    }
+}

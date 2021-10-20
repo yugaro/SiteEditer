@@ -1,0 +1,13 @@
+.App-header-top-containter2{
+  height: 60px;
+  width: 100%;
+  position :fixed;
+  top: 0;
+  z-index: 1100;
+}
+
+.top-icon-item{
+  display: block;
+  color: white;
+  font-size: 2em;
+}

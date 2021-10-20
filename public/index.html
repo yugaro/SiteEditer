@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X81GBV4C15"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-X81GBV4C15');
+      (function(){
+        const query = window.location.search;
+        if (query.startsWith('?p=')) {
+          const route = decodeURIComponent(query.substr(3));
+          window.history.replaceState(null, null, route);
+        }
+      })();
+    </script>
+    <link rel="icon" href="%PUBLIC_URL%/myicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/myicon.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="author" content="Yuga Onoue" />
+    <meta
+      name="description"
+      content="Yuga Onoue's site (尾上 悠雅)."
+    />
+    <meta
+      name="keywords"
+      content="Yuga, Onoue, 尾上, 悠雅, MyPage"
+    />
+    <title>Yuga Onoue</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

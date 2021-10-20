@@ -1,0 +1,36 @@
+.App-header-top-containter2 {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1100;
+}
+
+.App-header-top-containter-left2 {
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    flex: 1 1 0%;
+}
+
+.top-icon-item {
+    display: block;
+    color: white;
+    font-size: 2em;
+}
+
+.menu-icon-color2 {
+    color: white;
+}
+
+
+.lockiconwrapper {
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.3em;
+    margin-left: 1em;
+}
+
+.locknoteiconlabel2 {
+    height: 4em;
+}

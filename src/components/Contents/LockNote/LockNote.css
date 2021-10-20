@@ -1,0 +1,17 @@
+.locknote-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+.locknoteimage{
+    background-image: url(../image/memo_cafe.jpg);
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}

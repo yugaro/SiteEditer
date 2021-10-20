@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f4331e4b.chunk.css",
+    "main.js": "/static/js/main.0273fb96.chunk.js",
+    "main.js.map": "/static/js/main.0273fb96.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4a3acf61.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4a3acf61.js.map",
+    "static/css/2.4e21d727.chunk.css": "/static/css/2.4e21d727.chunk.css",
+    "static/js/2.6bbacbc5.chunk.js": "/static/js/2.6bbacbc5.chunk.js",
+    "static/js/2.6bbacbc5.chunk.js.map": "/static/js/2.6bbacbc5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cb191603b797e2b92c80094f93d3d30e.js": "/precache-manifest.cb191603b797e2b92c80094f93d3d30e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.4e21d727.chunk.css.map": "/static/css/2.4e21d727.chunk.css.map",
+    "static/css/main.f4331e4b.chunk.css.map": "/static/css/main.f4331e4b.chunk.css.map",
+    "static/js/2.6bbacbc5.chunk.js.LICENSE.txt": "/static/js/2.6bbacbc5.chunk.js.LICENSE.txt",
+    "static/media/LockNoteIcon.png": "/static/media/LockNoteIcon.83f48e3b.png",
+    "static/media/LockNoteIconw.svg": "/static/media/LockNoteIconw.69eb6c80.svg",
+    "static/media/Article.css": "/static/media/self-triggered-control.c369de41.png",
+    "static/media/LockNote.css": "/static/media/memo_cafe.9cad704d.jpg",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
+    "static/media/Slide.css": "/static/media/top8.ebc1b999.jpg",
+    "static/media/yuga01.png": "/static/media/yuga01.d04202d8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a3acf61.js",
+    "static/css/2.4e21d727.chunk.css",
+    "static/js/2.6bbacbc5.chunk.js",
+    "static/css/main.f4331e4b.chunk.css",
+    "static/js/main.0273fb96.chunk.js"
+  ]
+}

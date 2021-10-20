@@ -1,0 +1,15 @@
+.qualification-container {
+    flex: 1 1 0%;
+}
+
+.qualification-content {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.sub-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 64px;
+    margin-bottom: 24px;
+}

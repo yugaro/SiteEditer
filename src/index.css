@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir Next";
+  font-family: Montserrat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+div{
+  display: block;
+}
+
+.btn{
+  opacity: 0.8;
+  transition: 0.3s;
+  cursor:pointer;
+}
+
+.btn:hover{
+  opacity: 1.0;
+  cursor:pointer;
+}
+
+.btn2{
+  color: #333333;
+  cursor:pointer;
+  transition: 0.2s;
+}
+
+.btn2:hover{
+  color: #DC143C;
+  cursor:pointer;
+}
+
+.btn3{
+  color: white;
+  cursor:pointer;
+  transition: 0.3s;
+}
+
+.btn3:hover{
+  color: #333333;
+  cursor:pointer;
+}
+
+.tctfl{
+  color: #333333;
+  text-align: left;
+  line-height: 1.8;
+}

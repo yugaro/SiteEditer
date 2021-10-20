@@ -1,0 +1,173 @@
+.App-header-top-containter {
+    position: fixed;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 0 20px gray;
+}
+
+.top-containter-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 56px;
+    padding: 0 16px;
+}
+
+.App-header-top-containter-left2 {
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    flex: 1 1 0%;
+}
+
+.top-title-wrap {
+    margin-left: 20px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-inner {
+    position: absolute;
+    top: 20%;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    padding: 24px;
+    width: 50%;
+    min-width: 400px;
+    max-width: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.modal-inner-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    line-height: 2.2em;
+}
+
+.modal-item {
+    border-bottom: 2px solid #708090;
+}
+
+
+.App-header-top-containter-right {
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    flex: 1 1 0%;
+}
+
+.top-icon-wrap {
+    margin-right: 20px;
+}
+
+.mail_icon_wrapper {
+    position: relative;
+}
+
+
+.mail_fukidashi {
+    position: absolute;
+    top: 20px;
+    left: -120px;
+    font-size: 18px;
+    width: 340px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    line-height: 150%;
+    animation: 0.3s fadeIn;
+}
+
+.mail_fukidashi2 {
+    position: absolute;
+    top: 20px;
+    left: -50px;
+    font-size: 18px;
+    width: 120px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    line-height: 150%;
+    animation: 0.3s fadeIn;
+}
+
+.top-icon-item-color {
+    display: block;
+    font-size: 2em;
+    /* vertical-align: -0.125em; */
+}
+
+.icon-envelope {
+    color: #FF69B4
+}
+
+.icon-github {
+    color: black;
+}
+
+.icon-twitter {
+    color: #55acee;
+}
+
+.icon-linkedin {
+    color: #0077b5;
+}
+
+.icon-instagram {
+    color: white;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    border-radius: 20%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.lockiconwrapper{
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+}
+
+.locknoteiconlabel{
+    height: 2.5em;
+    border-radius: 25%;
+}

@@ -1,0 +1,131 @@
+.main {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-wrapper {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    padding: 24px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 64px;
+    margin-bottom: 24px;
+}
+
+.main-timeline-container {
+    display: flex;
+    flex: 1 1 0%;
+}
+
+.main-timeline-line-container {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 16px;
+    padding-top: 5px;
+}
+
+.main-timeline-round {
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.main-timeline-line {
+    background-color: black;
+    width: 2px;
+    flex: 1 1 0%;
+}
+
+.main-timeline-wrap {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 40px;
+    flex: 1 1 0%;
+}
+
+.main-timeline-year-container {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main-timeline-year {
+    line-height: 1.8;
+    background-color: rgb(51, 51, 51);
+    padding: 2px 16px;
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+    font-weight: 500;
+
+}
+
+.main-timeline-place {
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.ttf {
+    margin-top: 24px;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.tts {
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.timeline-content-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.timeline-content {
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.timeline-special-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.timeline-special {
+    background-color: rgb(21, 101, 192);
+    padding: 2px 16px;
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+    font-weight: 500;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+@media all and (max-width: 48em) {
+    .main-timeline-year-container {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .main-timeline-place {
+        margin-top: 8px;
+    }
+}

@@ -1,0 +1,8 @@
+.journal-container{
+	flex: 1 1 0%;
+}
+
+.jounal-arXiv{
+	display: inline-block;
+	text-decoration: underline;
+}

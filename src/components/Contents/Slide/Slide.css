@@ -1,0 +1,140 @@
+.slide-wrapper{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+}
+
+.slide{
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.top-img{
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.top-text-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.top-text {
+  color: white;
+  text-align: center;
+  line-height: 1.8;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.ht1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+
+}
+
+.ht2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.ht3 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.scroll-guid{
+  position: absolute;
+  bottom: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-arrow{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-guid {
+  transform: rotate(-45deg);
+  border-left: 3px solid rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(255, 255, 255);
+  width: 20px;
+  height: 20px;
+  animation: evwVtB 1.5s ease 0s infinite normal none running;
+  margin-bottom: 0.01vw;
+}
+
+.hg1 {
+  animation-delay: 0s;
+
+}
+
+.hg2 {
+  animation-delay: 0.15s;
+}
+
+.hg3 {
+  animation-delay: 0.3s;
+}
+
+@keyframes evwVtB {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.top-img0 {
+  background-image: url(../image/top.jpg);
+}
+
+.top-img1 {
+  background-image: url(../image/top1.jpg);
+}
+
+.top-img2 {
+  background-image: url(../image/top2.jpg);
+}
+
+.top-img3 {
+  background-image: url(../image/top3.jpg);
+}
+
+.top-img4 {
+  background-image: url(../image/top4.jpg);
+}
+
+.top-img5 {
+  background-image: url(../image/top5.jpg);
+}
+
+.top-img6 {
+  background-image: url(../image/top6.jpg);
+}
+
+.top-img7 {
+  background-image: url(../image/top7.jpg);
+}
+
+.top-img8 {
+  background-image: url(../image/top8.jpg);
+}
